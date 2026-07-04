@@ -28,7 +28,7 @@ if [[ $cpu -gt 80 ]]; then
 fi
 
 if [[ $USED_MEM_PERCENT -gt 80 ]]; then
-        echo " WARNING - Mem Usage over 80% $USED_MEM_PERCENTAGE% used - $(date +"%Y-%m-%d %H:%M:%S | %a") " >> ~/alert.log
+        echo " WARNING - Mem Usage over 80% $USED_MEM_PERCENT% used - $(date +"%Y-%m-%d %H:%M:%S | %a") " >> ~/alert.log
 fi
 
 if [[ $FREE_DISK_PERCENT -lt 20 ]]; then

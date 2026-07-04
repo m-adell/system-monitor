@@ -14,7 +14,7 @@ This is my first real project after learning Linux and Bash scripting as a part 
  **Memory Usage** - Show used and free Memory percentage
  **Disk Usage** - Show total, used and free disk space
  **Alerts** - Logs warnings when CPU or Memory exceeds 80% Usage, and when the disk free space goes below 20% with timestamps
- **output Files** - saves reports to '~/sysreport.txt' and alerts to '~/alerts.log'
+ **output Files** - saves reports to 'sysreport.txt' and alerts to 'alerts.log'
 
 ## Technologies Used
 

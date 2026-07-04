@@ -31,6 +31,6 @@ if [[ $USED_MEM_PERCENT -gt 80 ]]; then
         echo " WARNING - Mem Usage over 80% $USED_MEM_PERCENTAGE% used - $(date +"%Y-%m-%d %H:%M:%S | %a") " >> ~/alert.log
 fi
 
-if [[ $FREE_DISK_PERCENTAGE -lt 20 ]]; then
-        echo " WARNING - Disk is almost full $FREE_DISK_PERCNTAGE% free - $(date +"%Y-%m-%d %H:%M:%S | %a") " >> ~/alert.log
+if [[ $FREE_DISK_PERCENT -lt 20 ]]; then
+        echo " WARNING - Disk is almost full $FREE_DISK_PERCENT% free - $(date +"%Y-%m-%d %H:%M:%S | %a") " >> ~/alert.log
 fi

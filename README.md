@@ -22,12 +22,11 @@ This is my first real project after learning Linux and Bash scripting as a part 
  **Linux Commands** - 'top, free, df, awk, grep, date'
  **Cron** - for scheduling automatic runs
 
-## Installation
 
-'''Bash
+## *How to run:*
+
+```bash
 git clone https://github.com/m-adell/system-monitor.git
-
-## RUN
 cd system-monitor
 chmod +x sysmonitor.sh
 ./sysmonitor.sh

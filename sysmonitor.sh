@@ -36,9 +36,7 @@ if [[ $cpu -gt ${CPU_THRESHOLD} ]]; then
 fi
 
 
-if [[ $USED_MEM_PERCENT -gt ${CPU_THRESHOLD} ]]; then
-        echo " WARNING - Mem Usage over 80% [${USED_MEM_PERCENT}% used] - $timestamp " >> $ALERT_LOG
-if [[ $USED_MEM_PERCENT -gt ${MEM_THERSHOLD} ]]; then
+if [[ $USED_MEM_PERCENT -gt ${MEM_THRESHOLD} ]]; then
         echo " WARNING - Mem Usage over 80% [${USED_MEM_PERCENT}% used] - $timestamp " >> $ALERT_LOG
 
 fi

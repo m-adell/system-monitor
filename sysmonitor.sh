@@ -1,5 +1,5 @@
 #!/bin/bash
-
+set -euo pipefail
 # alerting variables
 CPU_THRESHOLD=80
 MEM_THRESHOLD=80
